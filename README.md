@@ -50,6 +50,6 @@ mvn clean package
 java -jar target/data-normalizer-0.0.1-SNAPSHOT.jar
 #### 5.3 Invoke the api
 curl -X POST 'http://localhost:8080/api/assessments?provider=provider_a' \
--H "Content-Type: application/json" \
---data-binary @src/test/resources/providerA.json
-{"patientId":"P123","assessmentDate":"2026-02-06T00:00:00Z","assessmentType":"behavioral_screening","scores":[{"dimension":"anxiety","value":7,"scale":"0-100"},{"dimension":"social","value":4,"scale":"0-100"},{"dimension":"attention","value":6,"scale":"0-100"}],"metadata":{"sourceProvider":"provider_a","sourceFormat":"nested_json","ingestedAt":"2026-02-06T21:48:16.713959Z","version":"1.0"}}%  
+     -H "Content-Type: application/json" \
+     --data @src/test/resources/providerA.json
+{"patientId":"P123","assessmentDate":"2026-02-06T00:00:00Z","assessmentType":"behavioral_screening","scores":[{"dimension":"anxiety","value":7,"scale":"0-100"},{"dimension":"social","value":4,"scale":"0-100"},{"dimension":"attention","value":6,"scale":"0-100"}],"metadata":{"sourceProvider":"provider_a","sourceFormat":"nested_json","ingestedAt":"2026-02-06T22:35:55.219207Z","version":"1.0"}}
