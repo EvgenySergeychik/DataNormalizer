@@ -1,0 +1,4 @@
+patient_id,assessment_date,metric_name,metric_value,category
+P125,2024-10-15,attention_span,6,behavioral
+P125,2024-10-15,social_engagement,4,behavioral
+P125,2024-10-15,anxiety_level,7,behavioral

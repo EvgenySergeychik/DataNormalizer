@@ -1,0 +1,16 @@
+{
+  "patient": {
+    "id": "P123",
+    "name": "John Doe",
+    "dob": "2000-01-01"
+  },
+  "assessment": {
+    "type": "behavioral_screening",
+    "scores": {
+      "anxiety": 7,
+      "social": 4,
+      "attention": 6
+    },
+    "notes": "Patient shows mild anxiety and attention issues."
+  }
+}
